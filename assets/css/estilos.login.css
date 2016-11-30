@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+*{
+	padding: 0;
+	margin:0;
+}
+
+.login{
+	-webkit-box-shadow: -25px -36px 53px 0px rgba(0,0,0,0.71);
+    -moz-box-shadow: -25px -36px 53px 0px rgba(0,0,0,0.71);
+    box-shadow: -25px -36px 53px 0px rgba(0,0,0,0.71);
+  	margin-left:30%;
+	margin-top: 108px;
+	width: 500px;
+	padding: 20px;
+	border-radius: 10px;
+
+}
+.form{
+	width: 350px;
+	padding: 4px;
+	border-radius: 4px;
+}
+.btn{
+		margin-top: 20px;
+		margin-left:26%;
+}
+.h1{
+	    margin-bottom: -37px;
+		margin-left:22%;
+		font-family: 'Chewy', cursive;
+		font-size: 45px;
+}
+.formulario{
+	margin-left: 55px;
+}
+hr{
+	border: 4px solid #FF4B0C;
+}
