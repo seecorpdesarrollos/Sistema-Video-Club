@@ -11,7 +11,7 @@
 		  $sql = $conexion->prepare("DELETE FROM alquileres WHERE idalquiler = $id_alquiler ");
 		  $sql->execute();
 		  
-	  header('location:index.php?action=listaAlquiler');
+	  header('location:listaAlquiler');
 		 
 	}
 
@@ -24,7 +24,7 @@
 				  $sql = $conexion->prepare("DELETE FROM peliculas WHERE idpelicula = $id ");
 				  $sql->execute();
 				  
-			  header('location:index.php?action=listadoPelis');
+			  header('location:listadoPelis');
            }
 			 
 		}
@@ -38,7 +38,7 @@
 				  $sql = $conexion->prepare("DELETE FROM usuarios WHERE idusuario = $id ");
 				  $sql->execute();
 				  
-			  header('location:index.php?action=usuarios');
+			  header('location:usuarios');
 		 }
 	}
 

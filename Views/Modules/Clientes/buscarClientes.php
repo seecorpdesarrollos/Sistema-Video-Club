@@ -47,9 +47,9 @@
 	<td><?php echo $resultados->dni; ?></td>
 	<td class=" alert-danger"><?php echo $resultados->estado; ?></td>
 	<td>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
-		<a href="index.php?action=listadoClientes"><i class="fa fa-edit btn btn-primary "></i>
+		<a href="listadoClientes"><i class="fa fa-edit btn btn-primary "></i>
 		</a>
-		<a href="index.php?action=alta&idcliente=<?php echo $resultados->idcliente; ?>"><i class="fa fa-edit btn btn-warning "></i>
+		<a href="alta&idcliente=<?php echo $resultados->idcliente; ?>"><i class="fa fa-edit btn btn-warning "></i>
 		</a>
    </td>
 </tbody>

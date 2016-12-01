@@ -11,7 +11,7 @@
 		  $sql = $conexion->prepare("UPDATE clientes SET estado = 'NO ACTIVO' WHERE idcliente = $id_cliente ");
 		  $sql->execute();
 		  
-	  header('location:index.php?action=listadoClientes');
+	  header('location:listadoClientes');
 		 
 	}
 

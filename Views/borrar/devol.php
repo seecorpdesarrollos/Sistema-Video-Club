@@ -13,7 +13,7 @@
 		  $sql = $conexion->prepare("DELETE FROM caja  WHERE idpelicula = $id ");
 		  $sql->execute();
 
-	 header('location:index.php?action=alquilar');
+	 header('location:alquilar');
 		 
 	}
 

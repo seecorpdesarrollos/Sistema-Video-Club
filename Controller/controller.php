@@ -53,9 +53,9 @@ class MvcController{
  			#pedir la informacion al modelo.
  		$respuesta= Datos::registrarUsuarioModel($datosController,'usuarios');
  			if ($respuesta == 'success') {
- 				header('location:index.php?action=ok');
+ 				header('location:ok');
  			}else{
-                header('location:index.php?action=inicio');
+                header('location:inicio');
  			}
  		}
  	}
@@ -108,7 +108,7 @@ class MvcController{
       			                    'idusuario'=>$_POST['idusuario']);
       		$respuesta=Datos::actualizarUsuariosModel($datosController, 'usuarios');
       		if ($respuesta == 'success') {
-      				  header('location:index.php?action=cambioUsuario');
+      				  header('location:cambioUsuario');
       		}
       	}
       } 
@@ -146,7 +146,7 @@ class MvcController{
  		
  		$respuesta= Datos::registrarPeliculasModel($datosController,'peliculas');
  			if ($respuesta == 'success') {
- 				header('location:index.php?action=okpelis');
+ 				header('location:okpelis');
  			}else{
                 header('location:index.php');
  			}
@@ -186,7 +186,7 @@ class MvcController{
  		
  		$respuesta= Datos::registrarAlquilerModel($datosController,'alquileres');
  			if ($respuesta == 'success') {
- 				header('location:index.php?action=okalquiler');
+ 				header('location:okalquiler');
  			}else{
                 header('location:index.php');
  			}
@@ -247,7 +247,7 @@ class MvcController{
  		
  		$respuesta= Datos::registrarClientesModel($datosController,'clientes');
  			if ($respuesta == 'success') {
- 				header('location:index.php?action=okModiClientes');
+ 				header('location:okModiClientes');
  			}else{
                 header('location:index.php');
  			}
@@ -337,7 +337,7 @@ class MvcController{
       			                    );
       		$respuesta=Datos::actualizarClientesModel($datosController, 'clientes');
       		if ($respuesta == 'success') {
-      				  header('location:index.php?action=cambioClientes');
+      				  header('location:cambioClientes');
       		}
       	}
        }
