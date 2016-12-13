@@ -47,7 +47,7 @@
 
 	 <div class="col-md-12">
 	  <div class="form-group"> 
-	    <input type="submit" class="form-control btn btn-success" value="Agregar Usuario Nuevo">
+	    <input type="submit" class="form-control btn btn-success" value="Agregar Película Nueva">
 	  </div>
 	 </div>
  

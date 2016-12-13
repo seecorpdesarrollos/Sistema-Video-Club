@@ -57,7 +57,7 @@
 
    <div class="col-md-12">
     <div class="form-group"> 
-      <input type="submit" name="alquilar" class="btn btn-success" value="Agregar Usuario Nuevo">
+      <input type="submit" name="alquilar" class="btn btn-success" value="Alquilar Película">
     </div>
    </div>
  
